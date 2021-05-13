@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".now_playing">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:id="@+id/now_playing_image"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:id="@+id/song_name"
+            tools:text="Ikk Pal"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:id="@+id/artist_name"
+            tools:text="Ammy Virk"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginRight="30dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/previous_button"
+            android:id="@+id/previous_button"/>
+
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/play_button1"/>
+
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="30dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/next_button1"
+            android:id="@+id/next_button"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
